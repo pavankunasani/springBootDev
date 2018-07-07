@@ -26,7 +26,7 @@ public class HelloController {
 	@GetMapping(value = "/json", produces = MediaType.APPLICATION_JSON_VALUE)
 	public Hello json() {
 
-		return new Hello("welcome", "user");
+		return new Hello("welcome", "user pavan");
 	}
 
 	@PostMapping(value = "/jsonPost", consumes = MediaType.APPLICATION_JSON_VALUE
